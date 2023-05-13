@@ -119,7 +119,7 @@ if __name__ == "__main__":
     num1, num2 = 0, 0
 
     while True:
-        print("Select calculator type:")
+        print("Choice calculator type:")
         print("1. Basic Calculator")
         print("2. Scientific Calculator")
         choice = int(input())
@@ -134,7 +134,7 @@ if __name__ == "__main__":
             print("Invalid choice, please try again")
 
     while True:
-        print("Select operation:")
+        print("Choice operation:")
         print("1. Add numbers")
         print("2. Subtract numbers")
         print("3. Multiply numbers")
