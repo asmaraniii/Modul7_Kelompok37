@@ -134,11 +134,12 @@ if __name__ == "__main__":
             print("Invalid choice, please try again")
 
     while True:
-        print("Choice operation:")
-        print("1. Add numbers")
-        print("2. Subtract numbers")
-        print("3. Multiply numbers")
-        print("4. Divide numbers")
+        if choice == 1:
+            print("Choice operation:")
+            print("1. Add numbers")
+            print("2. Subtract numbers")
+            print("3. Multiply numbers")
+            print("4. Divide numbers")
         if choice == 2:
             print("5. Square root")
             print("6. Exponentiation")
